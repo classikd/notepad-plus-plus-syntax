@@ -1,0 +1,51 @@
+@import "colors";
+
+.php {
+
+  .keyword.operator.php {
+      color: @purple;
+
+      &.type{
+        color:@blue;
+        font-weight: bold;
+      }
+  }
+  .variable.php {
+    color: @navy;
+  }
+
+  .support.function.var.php,
+  .support.function.array.php {
+    color: black;
+    font-weight: normal;
+  }
+
+  // Change punctuation color ([; etc
+  .source.php{
+    // color: @purple;
+
+    .function-call{
+      color: black;
+    }
+  }
+
+  .string.quoted.double {
+
+    .punctuation.definition.string.php {
+      &.begin, &.end {
+        color: @grey;
+      }
+    }
+  }
+
+}
+
+.punctuation.php{
+  color:@purple;
+}
+
+.namespace.php .punctuation.php,
+.meta.namespace.php + .punctuation.php,
+.meta.use.php + .punctuation.php{
+  color:black;
+}

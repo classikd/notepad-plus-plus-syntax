@@ -1,0 +1,73 @@
+@import "colors";
+
+.variable.css,
+.support.constant.css{
+  color: black;
+  font-weight: normal;
+}
+
+.property-value.css{
+
+  .constant.numeric.css,
+  .constant.numeric.css .unit,
+  .function,
+  .constant{
+    color: black;
+    font-weight: bold;
+  }
+
+  .constant.escape{
+    font-weight: normal;
+  }
+
+  .string{
+    color: black;
+    font-weight: normal;
+  }
+
+}
+
+.source .attribute-selector{
+  .entity.other.attribute-name.css,
+  .string.css{
+    color: black;
+  }
+}
+
+.keyword.css {
+    &.important{
+      color: @red;
+      font-weight: bold;
+    }
+    &.media{
+      color: black;
+      font-weight: normal;
+
+    }
+}
+.media.css{
+   .support.type.property-name,
+   .constant.numeric,
+   .unit{
+    color: black;
+    font-weight: normal;
+  }
+}
+.keyword.control.font-face.css {
+    color: @id;
+}
+
+.source .entity.name.tag.custom.css{
+  color:@id;
+}
+.source .entity.name.tag.custom.css + .entity.name.tag.css{
+  color:@blue;
+}
+
+.source .entity.other.attribute-name.css{
+  &.pseudo-class,
+  &.pseudo-element{
+    color:@orange;
+    font-weight: bold;
+  }
+}

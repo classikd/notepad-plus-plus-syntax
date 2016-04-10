@@ -1,0 +1,31 @@
+@import "colors";
+
+.source.less {
+
+  .variable.other.less{
+    color: rgb(220, 3, 132);
+    font-weight: bold;
+  }
+
+  .keyword.control {
+    color: #000;
+    font-weight: normal;
+    &.html.elements{
+      color: @blue;
+      &.svg{
+        color: #000;
+      }
+    }
+    &.at-rule{
+      color: @blue;
+      font-weight: bold;
+    }
+  }
+
+  .keyword.other.unit,
+  .constant.numeric {
+    color: #000;
+    font-weight: bold;
+  }
+
+}

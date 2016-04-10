@@ -1,0 +1,78 @@
+// COLORS
+@blue: rgb(0,0,255);
+@navy: rgb(0,0,128);
+@green: rgb(0,128,0);
+@yellow: rgb(230,205,105);
+@red: rgb(255,0,0);
+@purple: rgb(128,0,255);
+@purplelight: rgb(128,128,192);
+@orange: rgb(255,150,0);
+@grey: rgb(149,149,149);
+
+
+// GUTTER
+@gutter-text: rgb(64,75,83);
+@gutter-text-highlight: rgb(129,129,129);
+@gutter-background: rgb(228,228,228);
+@gutter-background-highlight: rgb(214,214,214);
+
+
+// CODE VIEW
+@code-background: white; // editor background
+@code-font: Source Code Pro;
+@code-font-color: black; // default editor text
+
+// SYNTAX COLORS
+@comment: rgb(0,128,0); // comments, duhr.
+@comment-bg: none; // comments, duhr.
+@comment-punc: @comment;
+@string: @grey; // 'value' of var='value', "name.png" or src="name.png"
+@constant: @blue; // true of var x = true, {{}} of {{> hbs_include}}
+@variable: black; // foo or function(foo), hbs_include of {{> hbs_include}}, http://dom.com/ of url(http://dom.com/)
+@support: black; // module of module.exports, color of color: rgb(0,0,0)
+@entity: black; // exports of module.exports, <div id= of <div id="#id">, . of .className
+@keyword: @blue; // = of var a = b, if of if a = b, px of font-size: 13px;
+@storage: @blue; // var of var a = b;
+@meta: @code-font-color; // none of border: none;
+@function-param: black;
+
+@error: black;
+
+@regex: @string;
+
+@numeric: @orange;
+@quotes: @code-font-color;
+
+@markup: @code-font-color;
+@unknown: @code-font-color;
+
+// MISC COLORS
+@invisible: rgba(255,255,255,0.1);
+@guides: rgba(0,0,0,0.12);
+@cursor-color: @code-font-color;
+@cursor-width: 1px;
+@selected: rgba(192,192,192,0.6); // selected background color
+@selected-border: rgba(85,181,219,0.9);
+@selected-line: rgb(232,232,255);
+
+// HTML - CSS
+@tag: @blue;
+@tag-entity: @blue;
+@element-attr: @red;
+@class: @red;
+@id: rgb(0,128,255);
+@block: @blue;
+@inline: lighten(@blue, 25%);
+
+@entity-function: @blue;
+@brackets: darken(@code-font-color, 30%);
+@punctuation: darken(@code-font-color, 30%);
+
+@search-bg: transparent;
+@search-border: solid 1px @blue;
+
+@search-active-bg: @blue;
+@search-active-border: solid 1px @blue;
+
+@search-item-border: @blue;
+@search-item-bg: @red;

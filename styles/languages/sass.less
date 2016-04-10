@@ -1,0 +1,59 @@
+@import "colors";
+
+.source.scss {
+  .entity.name.tag {
+    color: @blue;
+    &.reference{
+      color: #000;
+    }
+  }
+  .constant.other.color{
+    color: #000;
+    font-weight: bold;
+  }
+
+  .variable.scss {
+  font-weight: bold;
+  color: @navy;
+  }
+
+  .variable.scss .variable.scss {
+  color: rgb(220, 3, 132);
+  font-weight: bold;
+  }
+
+  .support.constant.scss{
+    color: #000;
+  }
+  .support.function {
+  color: black;
+  font-weight: normal;
+  }
+
+  .keyword.other.unit,
+  .constant.numeric {
+  color: black;
+  font-weight: bold;
+  }
+  .keyword.other.default {
+  color: @red;
+  }
+
+  .property-name.scss{
+    color: @purplelight;
+    font-weight: bold;
+  }
+  .property-value.scss{
+    color: black;
+    font-weight: bold;
+
+    .support.function,
+    .variable.parameter.scss {
+    color:black;
+    font-weight: bold;
+    }
+  }
+  .include.scss .property-value.scss{
+    font-weight: normal;
+  }
+}

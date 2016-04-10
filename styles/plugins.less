@@ -1,0 +1,24 @@
+@import "colors.less";
+
+/*
+Colors plugin highlight-selected
+https://atom.io/packages/highlight-selected
+*/
+atom-text-editor, atom-text-editor::shadow {
+  // Box
+  .highlights .highlight-selected .region {
+    border-color: rgba(83,233,83,0.65);
+  }
+  // Background
+  .highlights .highlight-selected.background .region {
+    background-color: rgba(83,233,83,0.45);
+  }
+  // Light theme box (set in settings)
+  .highlights .highlight-selected.light-theme .region {
+    border-color: rgba(83,233,83,0.25);
+  }
+  // Light theme background (set in settings)
+  .highlights .highlight-selected.light-theme.background .region {
+    background-color: rgba(83,233,83,0.20);
+  }
+}
