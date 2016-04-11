@@ -14,6 +14,7 @@
     color: @navy;
   }
 
+  .support.function.network.php,
   .support.function.var.php,
   .support.function.array.php {
     color: black;
@@ -38,10 +39,44 @@
     }
   }
 
+  .sql.php .keyword{
+    color: @grey;
+    font-weight: normal;
+  }
+
+}
+
+.source .string {
+
+  .punctuation.section.embedded.php {
+    color: @red;
+    font-weight: normal;
+  }
 }
 
 .punctuation.php{
   color:@purple;
+}
+
+// Php code in src attribute of html "script" tag
+.source.embedded.js{
+
+  .string.quoted.double.html{
+    color: @purple;
+
+    .source.php{
+      color: black;
+      font-weight: normal;
+
+      .string .source,
+      .string .meta.embedded.line {
+          color: @grey;
+      }
+    }
+    .embedded.end .source.php{
+      color: @red;
+    }
+  }
 }
 
 .namespace.php .punctuation.php,
