@@ -1,6 +1,12 @@
 @import "colors";
 
 .source.scss {
+  .attribute-selector{
+    .string,
+    .entity.other.attribute-name{
+      color:black
+    }
+  }
   .entity.name.tag {
     color: @blue;
     &.reference{
@@ -49,8 +55,15 @@
 
     .support.function,
     .variable.parameter.scss {
-    color:black;
-    font-weight: bold;
+      color:black;
+      font-weight: bold;
+    }
+    .string.scss {
+      color:black;
+      font-weight:normal;
+      .constant.character.escape{
+        color:black;
+      }
     }
   }
   .include.scss .property-value.scss{
