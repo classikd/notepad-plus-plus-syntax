@@ -1,4 +1,8 @@
 
+## 0.1.3
+* Correct scss colors
+* Change screenshot
+
 ## 0.1.2
 * Correct id color in css
 * Correct php code (sql queries and code in src atrribut of script tag)
