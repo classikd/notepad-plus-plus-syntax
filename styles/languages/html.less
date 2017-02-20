@@ -1,123 +1,123 @@
 @import "colors";
 
-.html {
+.syntax--html {
 
   // Doctype
-  .sgml .tag.sgml,
-  .sgml .punctuation.definition.tag{
+  .syntax--sgml .syntax--tag.syntax--sgml,
+  .syntax--sgml .syntax--punctuation.syntax--definition.syntax--tag{
     color:black;
   }
 
-  .string {
+  .syntax--string {
     color: @string;
   }
 
 
   // inline elements - <span>
-  .meta {
+  .syntax--meta {
 
 
   }
 
-  .punctuation.definition.tag {
+  .syntax--punctuation.syntax--definition.syntax--tag {
     color: @tag;
   }
 
-  .entity {
+  .syntax--entity {
 
-    &.name.tag {
+    &.syntax--name.syntax--tag {
       text-decoration: none;
 
       // structural elements - <html>
-      &.structure {
+      &.syntax--structure {
         color: @tag;
       }
 
       // block level elements - <div>, <h1>
-      &.block {
+      &.syntax--block {
         color: @tag;
       }
 
       // inline elements - <span>
-      &.script {
+      &.syntax--script {
         // color: @tag;
       }
 
     }
 
-    &.other {
-      &.attribute-name {
+    &.syntax--other {
+      &.syntax--attribute-name {
         color: @element-attr;
       }
     }
 
   }
 
-  .entity.character.html {
+  .syntax--entity.syntax--character.syntax--html {
       font-weight: normal;
       font-style: italic;
 
-      .entity{ color: #000;}
+      .syntax--entity{ color: #000;}
   }
 
-  .meta.tag.any {
+  .syntax--meta.syntax--tag.syntax--any {
     color: black;
   }
 
-  .entity.name.tag {
-    &.block, &.inline, &.name {
+  .syntax--entity.syntax--name.syntax--tag {
+    &.syntax--block, &.syntax--inline, &.syntax--name {
       color: @tag;
     }
   }
 
-  .entity.other.attribute-name.id.html {
+  .syntax--entity.syntax--other.syntax--attribute-name.syntax--id.syntax--html {
     font-weight: normal;
   }
 
-  .punctuation.separator.key-value {
+  .syntax--punctuation.syntax--separator.syntax--key-value {
     color: @green;
   }
 
-  .string.quoted.double {
+  .syntax--string.syntax--quoted.syntax--double {
     color: @string;
 
-    .punctuation.definition.string.html {
-      &.begin, &.end {
+    .syntax--punctuation.syntax--definition.syntax--string.syntax--html {
+      &.syntax--begin, &.syntax--end {
         color: @purple;
       }
 
-      .separator.key-value.html {
+      .syntax--separator.syntax--key-value.syntax--html {
         color: @green;
       }
 
     }
   }
 
-  .string.quoted.double.html {
+  .syntax--string.syntax--quoted.syntax--double.syntax--html {
     color: @purple;
     font-weight: bold;
   }
 
   // php in html attribute
-  .tag.html > .string.quoted.html > .embedded > .source{
+  .syntax--tag.syntax--html > .syntax--string.syntax--quoted.syntax--html > .syntax--embedded > .syntax--source{
       font-weight: normal;
       color: black;
   }
 
-  .tag.html > .string.quoted.html > .embedded > .embedded{
+  .syntax--tag.syntax--html > .syntax--string.syntax--quoted.syntax--html > .syntax--embedded > .syntax--embedded{
       font-weight: normal;
       color: @red
   }
 
-  .tag.html > .string.quoted.html {
-    .constant {
+  .syntax--tag.syntax--html > .syntax--string.syntax--quoted.syntax--html {
+    .syntax--constant {
       color: black;
       font-weight: normal;
     }
-    .constant.numeric {
+    .syntax--constant.syntax--numeric {
       color: @orange;
     }
-    .entity.name.function {
+    .syntax--entity.syntax--name.syntax--function {
       color: black;
     }
   }
