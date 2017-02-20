@@ -1,29 +1,29 @@
 @import "colors";
 
-.source.less {
+.syntax--source.syntax--less {
 
-  .variable.other.less{
+  .syntax--variable.syntax--other.syntax--less{
     color: rgb(220, 3, 132);
     font-weight: bold;
   }
 
-  .keyword.control {
+  .syntax--keyword.syntax--control {
     color: #000;
     font-weight: normal;
-    &.html.elements{
+    &.syntax--html.syntax--elements{
       color: @blue;
-      &.svg{
+      &.syntax--svg{
         color: #000;
       }
     }
-    &.at-rule{
+    &.syntax--at-rule{
       color: @blue;
       font-weight: bold;
     }
   }
 
-  .keyword.other.unit,
-  .constant.numeric {
+  .syntax--keyword.syntax--other.syntax--unit,
+  .syntax--constant.syntax--numeric {
     color: #000;
     font-weight: bold;
   }

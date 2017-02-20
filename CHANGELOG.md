@@ -1,4 +1,7 @@
 
+## 0.1.4
+* Correct deprecated selectors
+
 ## 0.1.3
 * Correct scss colors
 * Change screenshot

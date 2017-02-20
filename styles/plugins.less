@@ -4,13 +4,13 @@
 Colors plugin highlight-selected
 https://atom.io/packages/highlight-selected
 */
-atom-text-editor, atom-text-editor::shadow {
+atom-text-editor, atom-text-editor.editor {
   // Box
   .highlights .highlight-selected .region {
     border-color: rgba(83,233,83,0.65);
   }
   // Background
-  .highlights .highlight-selected.background .region {
+  .highlights .highlight-selected.syntax--background .region {
     background-color: rgba(83,233,83,0.45);
   }
   // Light theme box (set in settings)
@@ -18,7 +18,7 @@ atom-text-editor, atom-text-editor::shadow {
     border-color: rgba(83,233,83,0.25);
   }
   // Light theme background (set in settings)
-  .highlights .highlight-selected.light-theme.background .region {
+  .highlights .highlight-selected.light-theme.syntax--background .region {
     background-color: rgba(83,233,83,0.20);
   }
 }

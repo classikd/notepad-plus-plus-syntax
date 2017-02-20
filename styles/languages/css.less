@@ -1,76 +1,76 @@
 @import "colors";
 
-.variable.css,
-.support.constant.css{
+.syntax--variable.syntax--css,
+.syntax--support.syntax--constant.syntax--css{
   color: black;
   font-weight: normal;
 }
 
-.property-value.css{
+.syntax--property-value.syntax--css{
 
-  .constant.numeric.css,
-  .constant.numeric.css .unit,
-  .function,
-  .constant{
+  .syntax--constant.syntax--numeric.syntax--css,
+  .syntax--constant.syntax--numeric.syntax--css .syntax--unit,
+  .syntax--function,
+  .syntax--constant{
     color: black;
     font-weight: bold;
   }
 
-  .constant.escape{
+  .syntax--constant.syntax--escape{
     font-weight: normal;
   }
 
-  .string{
+  .syntax--string{
     color: black;
     font-weight: normal;
   }
 
 }
 
-.entity.other.attribute-name.id.css {
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id.syntax--css {
     color: @id;
 }
 
-.source .attribute-selector{
-  .entity.other.attribute-name.css,
-  .string.css{
+.syntax--source .syntax--attribute-selector{
+  .syntax--entity.syntax--other.syntax--attribute-name.syntax--css,
+  .syntax--string.syntax--css{
     color: black;
   }
 }
 
-.keyword.css {
-    &.important{
+.syntax--keyword.syntax--css {
+    &.syntax--important{
       color: @red;
       font-weight: bold;
     }
-    &.media{
+    &.syntax--media{
       color: black;
       font-weight: normal;
 
     }
 }
-.media.css{
-   .support.type.property-name,
-   .constant.numeric,
-   .unit{
+.syntax--media.syntax--css{
+   .syntax--support.syntax--type.syntax--property-name,
+   .syntax--constant.syntax--numeric,
+   .syntax--unit{
     color: black;
     font-weight: normal;
   }
 }
-.keyword.control.font-face.css {
+.syntax--keyword.syntax--control.syntax--font-face.syntax--css {
     color: @id;
 }
 
-.source .entity.name.tag.custom.css{
+.syntax--source .syntax--entity.syntax--name.syntax--tag.syntax--custom.syntax--css{
   color:@id;
 }
-.source .entity.name.tag.custom.css + .entity.name.tag.css{
+.syntax--source .syntax--entity.syntax--name.syntax--tag.syntax--custom.syntax--css + .syntax--entity.syntax--name.syntax--tag.syntax--css{
   color:@blue;
 }
 
-.source .entity.other.attribute-name.css{
-  &.pseudo-class,
-  &.pseudo-element{
+.syntax--source .syntax--entity.syntax--other.syntax--attribute-name.syntax--css{
+  &.syntax--pseudo-class,
+  &.syntax--pseudo-element{
     color:@orange;
     font-weight: bold;
   }

@@ -1,72 +1,72 @@
 @import "colors";
 
-.source.scss {
-  .attribute-selector{
-    .string,
-    .entity.other.attribute-name{
+.syntax--source.syntax--scss {
+  .syntax--attribute-selector{
+    .syntax--string,
+    .syntax--entity.syntax--other.syntax--attribute-name{
       color:black
     }
   }
-  .entity.name.tag {
+  .syntax--entity.syntax--name.syntax--tag {
     color: @blue;
-    &.reference{
+    &.syntax--reference{
       color: #000;
     }
   }
-  .constant.other.color{
+  .syntax--constant.syntax--other.syntax--color{
     color: #000;
     font-weight: bold;
   }
 
-  .variable.scss {
+  .syntax--variable.syntax--scss {
   font-weight: bold;
   color: @navy;
   }
 
-  .variable.scss .variable.scss {
+  .syntax--variable.syntax--scss .syntax--variable.syntax--scss {
   color: rgb(220, 3, 132);
   font-weight: bold;
   }
 
-  .support.constant.scss{
+  .syntax--support.syntax--constant.syntax--scss{
     color: #000;
   }
-  .support.function {
+  .syntax--support.syntax--function {
   color: black;
   font-weight: normal;
   }
 
-  .keyword.other.unit,
-  .constant.numeric {
+  .syntax--keyword.syntax--other.syntax--unit,
+  .syntax--constant.syntax--numeric {
   color: black;
   font-weight: bold;
   }
-  .keyword.other.default {
+  .syntax--keyword.syntax--other.syntax--default {
   color: @red;
   }
 
-  .property-name.scss{
+  .syntax--property-name.syntax--scss{
     color: @purplelight;
     font-weight: bold;
   }
-  .property-value.scss{
+  .syntax--property-value.syntax--scss{
     color: black;
     font-weight: bold;
 
-    .support.function,
-    .variable.parameter.scss {
+    .syntax--support.syntax--function,
+    .syntax--variable.syntax--parameter.syntax--scss {
       color:black;
       font-weight: bold;
     }
-    .string.scss {
+    .syntax--string.syntax--scss {
       color:black;
       font-weight:normal;
-      .constant.character.escape{
+      .syntax--constant.syntax--character.syntax--escape{
         color:black;
       }
     }
   }
-  .include.scss .property-value.scss{
+  .syntax--include.syntax--scss .syntax--property-value.syntax--scss{
     font-weight: normal;
   }
 }
