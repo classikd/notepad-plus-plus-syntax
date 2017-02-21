@@ -1,4 +1,7 @@
 
+## 0.1.5
+* Correct SCSS colors (variables, maps, font-family string)
+
 ## 0.1.4
 * Correct deprecated selectors
 

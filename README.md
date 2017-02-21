@@ -4,5 +4,7 @@ Notepad++ default theme syntax for Atom.
 
 ![Screenshot](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshot.png)
 
-Particular styles included at the moment :
-HTML, CSS, PHP, Javascript, LESS, SASS, JSON, XML, YML
+Custom styles which have been added :
+HTML, CSS, PHP, JavaScript, LESS, SASS, JSON, XML, YML
+
+Enjoy !
