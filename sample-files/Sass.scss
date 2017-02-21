@@ -1,4 +1,17 @@
 
+$theme-colors: (
+  regal-blue: #003A6C,
+  dusty-gray: $font-family-sans-serif,
+  silver: #ccc,
+  white: #fff,
+  gray: #818181
+);
+
+$font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:           $font-family-sans-serif !default;
+
 // Sass utilities
 @import 'util/util';
 
