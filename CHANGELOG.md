@@ -1,4 +1,7 @@
 
+## 0.1.6
+* Add screenshots and a more detailed description
+
 ## 0.1.5
 * Correct SCSS colors (variables, maps, font-family string)
 
