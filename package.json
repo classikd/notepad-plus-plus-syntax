@@ -1,7 +1,7 @@
 {
   "name": "notepad-plus-plus-syntax",
   "theme": "syntax",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Notepad++ default syntax theme",
   "repository": "https://github.com/classikd/notepad-plus-plus-syntax",
   "license": "GNU/GPL",

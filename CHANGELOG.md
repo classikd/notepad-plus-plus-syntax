@@ -1,4 +1,7 @@
 
+## 0.1.7
+* Correct screenshots paths
+
 ## 0.1.6
 * Add screenshots and a more detailed description
 
