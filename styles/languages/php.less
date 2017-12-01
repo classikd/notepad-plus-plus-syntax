@@ -2,6 +2,14 @@
 
 .syntax--php {
 
+  /* PHP in HTML attribut */
+  .syntax--html .syntax--string.syntax--quoted.syntax--double.syntax--html > .syntax--php{
+    font-weight: normal;
+    .syntax--entity {
+      color: black;
+    }
+  }
+
   .syntax--keyword.syntax--operator.syntax--php {
       color: @purple;
 
@@ -56,31 +64,4 @@
 
 .syntax--punctuation.syntax--php{
   color:@purple;
-}
-
-// Php code in src attribute of html "script" tag
-.syntax--source.syntax--embedded.syntax--js{
-
-  .syntax--string.syntax--quoted.syntax--double.syntax--html{
-    color: @purple;
-
-    .syntax--source.syntax--php{
-      color: black;
-      font-weight: normal;
-
-      .syntax--string .syntax--source,
-      .syntax--string .syntax--meta.syntax--embedded.syntax--line {
-          color: @grey;
-      }
-    }
-    .syntax--embedded.syntax--end .syntax--source.syntax--php{
-      color: @red;
-    }
-  }
-}
-
-.syntax--namespace.syntax--php .syntax--punctuation.syntax--php,
-.syntax--meta.syntax--namespace.syntax--php + .syntax--punctuation.syntax--php,
-.syntax--meta.syntax--use.syntax--php + .syntax--punctuation.syntax--php{
-  color:black;
 }
