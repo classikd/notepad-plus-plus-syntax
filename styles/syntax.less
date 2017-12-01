@@ -137,15 +137,12 @@
   color: @string;
 
   // REGEX - [\da-z] of /-([\da-z])/gi (js)
-  .syntax--constant {
-    color: @regex;
-  }
-
   &.syntax--regexp {
 
     // ?:input, select, textarea, button of  /^(?:input|select|textarea|button)$/i,
     color: @regex;
 
+    .syntax--constant,
     .syntax--constant.syntax--character.syntax--escape,
     .syntax--source.syntax--ruby.syntax--embedded,
     .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
@@ -209,14 +206,13 @@
 .syntax--source .syntax--string {
   .syntax--source,
   .syntax--meta.syntax--embedded.syntax--line {
-    color: @string;
+    color: @punctuation;
   }
-
   .syntax--punctuation.syntax--section.syntax--embedded {
-    color: @string;
+    color: @punctuation;
 
     .syntax--source {
-      color: @string;  // Required for the end of embedded strings in Ruby # 716
+      color: @punctuation;  // Required for the end of embedded strings in Ruby # 716
     }
   }
 }
