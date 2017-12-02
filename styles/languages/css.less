@@ -32,15 +32,17 @@
     color: @id;
 }
 
+.syntax--css {
+  .syntax--keyword.syntax--important{
+    color: @red;
+    font-weight: bold;
+  }
+}
+
 .syntax--keyword.syntax--css {
-    &.syntax--important{
-      color: @red;
-      font-weight: bold;
-    }
     &.syntax--media{
       color: black;
       font-weight: normal;
-
     }
 }
 .syntax--css .syntax--media.syntax--keyword.syntax--control,
