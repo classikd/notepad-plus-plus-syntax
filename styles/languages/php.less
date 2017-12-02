@@ -61,6 +61,20 @@
     color: red;
   }
 
+  /* PHPDoc */
+  .syntax--comment.syntax--documentation.syntax--phpdoc.syntax--php{
+    .syntax--php{
+      color: @comment
+    }
+    .syntax--tag{
+      background: rgba(78, 136, 78, 0.07);
+    }
+    > .syntax--php ~ .syntax--php{
+      font-weight: normal;
+      text-decoration: none;
+    }
+  }
+
 }
 
 .syntax--source .syntax--string {
