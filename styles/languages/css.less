@@ -33,13 +33,6 @@
     color: @id;
 }
 
-.syntax--source .syntax--attribute-selector{
-  .syntax--entity.syntax--other.syntax--attribute-name.syntax--css,
-  .syntax--string.syntax--css{
-    color: black;
-  }
-}
-
 .syntax--keyword.syntax--css {
     &.syntax--important{
       color: @red;
@@ -80,4 +73,28 @@
 
 .syntax--tag .syntax--bracket.syntax--css{
   color: black;
+}
+
+/* Black color attributes in selectors (default behavior in notepad++) */
+/*
+.syntax--source .syntax--attribute-selector{
+  .syntax--entity.syntax--other.syntax--attribute-name.syntax--css,
+  .syntax--string.syntax--css{
+    color: black;
+  }
+}*/
+
+/* Color attributes in selectors (custom. same color as html attributes) */
+.syntax--css{
+  .syntax--meta.syntax--attribute-selector{
+    .syntax--attribute-name{
+      color: red
+    }
+    .syntax--quoted,
+    .syntax--unquoted,
+    .syntax--punctuation.syntax--definition.syntax--string {
+      color: #ab00ff; //#8000ff;
+      font-weight: bold;
+    }
+  }
 }
