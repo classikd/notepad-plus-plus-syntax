@@ -44,12 +44,26 @@
 
     }
 }
-.syntax--media.syntax--css{
-   .syntax--support.syntax--type.syntax--property-name,
-   .syntax--constant.syntax--numeric,
-   .syntax--unit{
+.syntax--css .syntax--media.syntax--keyword.syntax--control,
+.syntax--css .syntax--media.syntax--constant,
+.syntax--css .syntax--media-property.syntax--css.syntax--support.syntax--constant,
+.syntax--css .syntax--media.syntax--css.syntax--at-rule.syntax--keyword.syntax--control{
+  color: black;
+  font-weight: normal;
+  .syntax--keyword {
     color: black;
-    font-weight: normal;
+  }
+}
+.syntax--media.syntax--css.syntax--header{
+   .syntax--constant.syntax--numeric{
+    color: black;
+    font-weight: bold;
+  }
+  .syntax--keyword.syntax--other.syntax--unit {
+    color: black;
+  }
+  .syntax--support.syntax--constant {
+    color: black;
   }
 }
 .syntax--keyword.syntax--control.syntax--font-face.syntax--css {
