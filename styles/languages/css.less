@@ -71,6 +71,23 @@
     font-weight: normal;
 }
 
+.syntax--css {
+  .syntax--import {
+    .syntax--keyword.syntax--control.syntax--at-rule.syntax--import,
+    .syntax--keyword.syntax--control {
+        color: #0080ff;
+        font-weight: normal;
+    }
+    .syntax--support.syntax--constant.syntax--css {
+      color: black;
+    }
+    .syntax--support.syntax--function.syntax--css {
+      color: black;
+      font-weight: normal;
+    }
+  }
+}
+
 .syntax--source .syntax--entity.syntax--name.syntax--tag.syntax--custom.syntax--css{
   color:@id;
 }
