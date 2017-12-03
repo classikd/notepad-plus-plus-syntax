@@ -1,4 +1,34 @@
 
+## 0.2.0
+* Correct string color in inline CSS
+* Correct SASS !important to red
+* Set CSS strings grey color
+* Improve CSS @import
+* Remove bold style for @font-face
+* Correct CSS Media Queries
+* Correct PHPDoc syntax
+* Correct SQL colors in PHP code
+* Correct CSS selector with numeric argument
+* Correct PHP namespace color
+* Set CSS selector attributes colors ligther
+* Add CSS animations blue color
+* Set style of CSS selector attributes same as html attributes
+* Correct CSS comment color
+* Correct basic constant and interpolation
+* Remove unwanted bold in XML syntax
+* Correct At sign color in LESS syntax
+* Correct storage type in comments
+* Correct color of SASS interpolations
+* Correct CSS constant color in SASS syntax
+* Correct ending PHP tag in inline JS string
+* Correct PHP code in inline CSS
+* Correct PHP code in HTML attribute
+* Improve JS RegExp style
+* Correct color of brackets in inline CSS
+* Add JSDoc style
+* Set italic style for comments
+* Correct inline JS color
+
 ## 0.1.7
 * Correct screenshots paths
 
