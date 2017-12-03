@@ -4,16 +4,16 @@ Notepad++ default syntax for Atom.
 
 ## Preview
 HTML:    
-![Html syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/html.png)
+![Html syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/html-notepad.png)
 
 CSS:    
-![CSS syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/css.png)
+![CSS syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/css-notepad.png)
 
 JavaScript:    
-![JavaScript syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/js.png)
+![JavaScript syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/js-notepad.png)
 
 PHP:    
-![PHP syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/php.png)
+![PHP syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/php-notepad.png)
 
 I've tested and optimized syntax for SCSS, LESS, JSON, XML and YML as well.
 
