@@ -2,14 +2,6 @@
 
 .syntax--php {
 
-  /* PHP in HTML attribut */
-  .syntax--html .syntax--string.syntax--quoted.syntax--double.syntax--html > .syntax--php{
-    font-weight: normal;
-    .syntax--entity {
-      color: black;
-    }
-  }
-
   .syntax--keyword.syntax--operator.syntax--php {
       color: @purple;
 
@@ -92,5 +84,13 @@
 .syntax--namespace.syntax--php{
   .syntax--punctuation.syntax--php{
     color:black;
+  }
+}
+
+/* PHP in HTML attribut */
+.syntax--html .syntax--string.syntax--quoted.syntax--double.syntax--html .syntax--embedded.syntax--php{
+  font-weight: normal;
+  .syntax--entity {
+    color: black;
   }
 }
