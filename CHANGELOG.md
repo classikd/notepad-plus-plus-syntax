@@ -1,3 +1,5 @@
+## 0.2.1
+* Fix invisible invisible characters
 
 ## 0.2.0
 * Correct string color in inline CSS
