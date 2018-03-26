@@ -4,15 +4,15 @@
 Tested and optimized for __HTML__, __PHP__, __JS__, __CSS__, __SCSS__, __LESS__, __JSON__, __XML__, __YML__.
 
 # Preview
-* ###### HTML
+* HTML
 
 ![Html syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/html-notepad.png)
 
-* ###### JavaScript
+* JavaScript
 
 ![JavaScript syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/js-notepad.png)
 
-* ###### PHP
+* PHP
 
 ![PHP syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/screenshots/php-notepad.png)
 
