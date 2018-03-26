@@ -1,4 +1,4 @@
-## 0.2.4
+## 0.2.5
 * Fix PHP functions color
 * Improve package description
 

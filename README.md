@@ -18,9 +18,9 @@ Tested and optimized for __HTML__, __PHP__, __JS__, __CSS__, __SCSS__, __LESS__,
 
 # Installation
 Directly in Atom:
-1. Open __Settings__ > __Install__
-1. Set the filter to __Themes__
-1. Search for `notepad-plus-plus-syntax` and click __Install__
+* Open __Settings__ > __Install__
+* Set the filter to __Themes__
+* Search for `notepad-plus-plus-syntax` and click __Install__
 
 Or, from the command line: `apm install notepad-plus-plus-syntax`
 
