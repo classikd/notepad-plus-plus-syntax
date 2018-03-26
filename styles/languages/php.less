@@ -23,11 +23,16 @@
 
   // Change punctuation color ([; etc
   .syntax--source.syntax--php{
-    // color: @purple;
+     color: @purple;
 
     .syntax--function-call{
       color: black;
     }
+  }
+
+  /* Rule to prevent PHP ending tag questionmark to be purple aswell */
+  .syntax--punctuation.syntax--section.syntax--embedded.syntax--end.syntax--php .syntax--source.syntax--php {
+      color: red;
   }
 
   .syntax--string.syntax--quoted.syntax--double {
@@ -66,7 +71,6 @@
       text-decoration: none;
     }
   }
-
 }
 
 .syntax--source .syntax--string {
@@ -93,4 +97,11 @@
   .syntax--entity {
     color: black;
   }
+}
+
+/* Make PHP functions inside of functions also bold blue */
+
+.syntax--support.syntax--function.syntax--string.syntax--php{
+    color: blue;
+    font-weight: bold;
 }
