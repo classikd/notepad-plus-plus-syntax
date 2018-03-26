@@ -1,3 +1,7 @@
+## 0.2.2
+* Fix PHP functions color
+* Improve package description
+
 ## 0.2.1
 * Fix invisible invisible characters
 
