@@ -1,3 +1,7 @@
+## 0.2.6
+* Correct XML declaration
+* Correct XML doctype
+
 ## 0.2.5
 * Fix PHP functions color
 * Improve package description
