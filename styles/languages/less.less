@@ -2,9 +2,15 @@
 
 .syntax--source.syntax--less {
 
+  .syntax--function.syntax--color,
+  .syntax--function.syntax--color .syntax--support.syntax--constant,
   .syntax--variable.syntax--other.syntax--less{
     color: rgb(220, 3, 132);
     font-weight: bold;
+    .syntax--punctuation {
+    color: #000;
+    font-weight: normal;
+    }
     .syntax--punctuation.syntax--definition.syntax--variable {
     color: inherit;
     }
