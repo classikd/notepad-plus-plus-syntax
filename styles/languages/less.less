@@ -31,6 +31,13 @@
     }
   }
 
+  /* Correct for :not() */
+  .syntax--key-value + .syntax--keyword.syntax--control,
+  .syntax--key-value + .syntax--property-value .syntax--keyword.syntax--control{
+    color: #ff9600;
+    font-weight: bold;
+  }
+
   .syntax--keyword.syntax--other.syntax--unit,
   .syntax--constant.syntax--numeric {
     color: #000;
