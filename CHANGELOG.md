@@ -1,3 +1,11 @@
+## 0.2.7
+* Add support for TypeScript
+* Correct colors of constants, window, document etc for JS syntax
+* Correct arguments color in LESS syntax
+* Correct pseudo-class not in LESS syntax
+* Correct variable's color in color function like rgba in LESS syntax
+* Correct color of ID in LESS syntax
+
 ## 0.2.6
 * Correct XML declaration
 * Correct XML doctype
