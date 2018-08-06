@@ -12,9 +12,19 @@
     font-weight: normal;
   }
 
+  /* Infinity, NaN, undefined | Number, Math, Date, String, RegExp */
+  .syntax--constant.syntax--language.syntax--js,
   .syntax--support.syntax--class.syntax--js {
-    color:rgb(157, 87, 17);
-    font-weight: bold;
+    color:#8000ff;
+  }
+  .syntax--constant.syntax--language.syntax--js{
+    font-weight: normal;
+    /* false, true, null */
+    &.syntax--boolean.syntax--js,
+    &.syntax--null.syntax--js {
+      color: @blue;
+      font-weight: bold;
+    }
   }
 
   .syntax--entity.syntax--name.syntax--function.syntax--constructor {
@@ -39,6 +49,12 @@
     .syntax--jsdoc.syntax--other {
       color: @comment;
     }
+  }
+
+  /* Dom elements (window, document..) */
+  .syntax--variable.syntax--dom.syntax--js:not(.syntax--property) {
+    color: #9d5711;
+    font-weight: bold;
   }
 
   color: black;
