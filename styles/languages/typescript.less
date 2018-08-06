@@ -1,0 +1,85 @@
+.syntax--source.syntax--ts {
+
+  /* SAME PROPERTIES IN JS */
+  /* --------------------- */
+  .syntax--variable.syntax--language.syntax--ts,
+  .syntax--keyword.syntax--operator.syntax--typeof.syntax--ts,
+  .syntax--keyword.syntax--operator.syntax--new.syntax--ts {
+    color: @blue;
+    font-weight: bold;
+  }
+  .syntax--support.syntax--function.syntax--ts,
+  .syntax--support.syntax--constant.syntax--ts {
+    color: black;
+    font-weight: normal;
+  }
+  .syntax--constant.syntax--language.syntax--ts,
+  .syntax--support.syntax--class.syntax--ts {
+    color:#8000ff;
+  }
+  .syntax--constant.syntax--language.syntax--ts{
+    font-weight: normal;
+    /* false, true, null */
+    &.syntax--boolean.syntax--ts,
+    &.syntax--null.syntax--ts {
+      color: @blue;
+      font-weight: bold;
+    }
+  }
+  .syntax--entity.syntax--name.syntax--function.syntax--constructor {
+    color:rgb(157, 87, 17);
+    font-weight: bold;
+  }
+  .syntax--comment.syntax--documentation{
+    .syntax--jsdoc.syntax--class {
+      color: @comment;
+      .syntax--punctuation.syntax--definition {
+        color: inherit;
+      }
+    }
+    .syntax--jsdoc.syntax--instance {
+      background: rgba(78, 136, 78, 0.07);
+      color:@comment;
+      .syntax--punctuation.syntax--definition {
+        color:inherit;
+      }
+    }
+    .syntax--jsdoc.syntax--other {
+      color: @comment;
+    }
+  }
+  .syntax--variable.syntax--dom.syntax--ts:not(.syntax--property) {
+    color: #9d5711;
+    font-weight: bold;
+  }
+
+  color: black;
+
+  /* NEW PROPERTIES FOR TYPESCRIPT */
+  /* ----------------------------- */
+  .syntax--meta.syntax--separator.syntax--ts {
+    background-color: transparent;
+  }
+
+  /* Types color */
+  .syntax--type.syntax--ts .syntax--entity.syntax--name.syntax--type.syntax--ts,
+  .syntax--type.syntax--primitive.syntax--ts {
+    color: #BA2121;
+  }
+
+  /* Correct for Math */
+  .syntax--constant.syntax--support.syntax--math.syntax--ts {
+    color:#8000ff;
+  }
+
+  /* console black */
+  .syntax--console.syntax--support.syntax--class.syntax--ts {
+      color: black;
+  }
+
+  /* correct for Plugin.prototype */
+  .syntax--dom.syntax--support.syntax--class.syntax--ts{
+    color: #000;
+  }
+
+}
