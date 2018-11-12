@@ -1,3 +1,6 @@
+## 0.2.8
+* Fix selected line color overrides bracket matching color
+
 ## 0.2.7
 * Add support for TypeScript
 * Correct colors of constants, window, document etc for JS syntax
