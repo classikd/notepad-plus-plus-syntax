@@ -1,3 +1,6 @@
+## 0.2.9
+* Correct bracket color in JavaScript syntax
+
 ## 0.2.8
 * Fix selected line color overrides bracket matching color
 
