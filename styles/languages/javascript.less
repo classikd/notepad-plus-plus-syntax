@@ -1,7 +1,7 @@
 .syntax--source.syntax--js {
 
   .syntax--variable.syntax--language.syntax--js,
-  .syntax--keyword.syntax--operator.syntax--typeof.syntax--js,
+  .syntax--keyword.syntax--operator.syntax--typeof,
   .syntax--keyword.syntax--operator.syntax--new.syntax--js {
     color: @blue;
     font-weight: bold;
@@ -30,7 +30,23 @@
       font-weight: bold;
     }
   }
+  .syntax--string.syntax--regexp{
+    .syntax--operator,
+    .syntax--punctuation.syntax--definition,
+    .syntax--storage.syntax--modifier {
+      color: @regex;
+      font-weight: normal;
+    }
+  }
 
+  > .syntax--new,
+  > .syntax--of,
+  > .syntax--in {
+    color: @keyword;
+    font-weight: bold;
+  }
+
+  > .syntax--support.syntax--variable,
   .syntax--entity.syntax--name.syntax--function.syntax--constructor {
     color:rgb(157, 87, 17);
     font-weight: bold;

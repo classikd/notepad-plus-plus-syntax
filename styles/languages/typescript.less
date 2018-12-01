@@ -29,6 +29,15 @@
       font-weight: bold;
     }
   }
+  .syntax--string.syntax--regexp{
+    .syntax--operator,
+    .syntax--punctuation.syntax--definition,
+    .syntax--storage.syntax--modifier {
+      color: @regex;
+      font-weight: normal;
+    }
+  }
+  > .syntax--support.syntax--variable,
   .syntax--entity.syntax--name.syntax--function.syntax--constructor {
     color:rgb(157, 87, 17);
     font-weight: bold;
