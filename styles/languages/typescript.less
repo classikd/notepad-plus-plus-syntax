@@ -2,6 +2,13 @@
 
   /* SAME PROPERTIES IN JS */
   /* --------------------- */
+  .syntax--arrow,
+  .syntax--operator,
+  .syntax--meta.syntax--delimiter,
+  .syntax--punctuation {
+    color: @navy;
+    font-weight: bold;
+  }
   .syntax--variable.syntax--language.syntax--ts,
   .syntax--keyword.syntax--operator.syntax--typeof.syntax--ts,
   .syntax--keyword.syntax--operator.syntax--new.syntax--ts {
@@ -14,7 +21,7 @@
     font-weight: normal;
   }
   > .syntax--punctuation.syntax--definition.syntax--array.syntax--bracket {
-    color: black;
+    color: @navy;
   }
   .syntax--constant.syntax--language.syntax--ts,
   .syntax--support.syntax--class.syntax--ts {

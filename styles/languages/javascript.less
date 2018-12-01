@@ -1,5 +1,13 @@
 .syntax--source.syntax--js {
 
+  .syntax--arrow,
+  .syntax--operator,
+  .syntax--meta.syntax--delimiter,
+  .syntax--punctuation {
+    color: @navy;
+    font-weight: bold;
+  }
+
   .syntax--variable.syntax--language.syntax--js,
   .syntax--keyword.syntax--operator.syntax--typeof,
   .syntax--keyword.syntax--operator.syntax--new.syntax--js {
@@ -13,7 +21,7 @@
   }
 
   > .syntax--punctuation.syntax--definition.syntax--array.syntax--bracket {
-    color: black;
+    color: @navy;
   }
 
   /* Infinity, NaN, undefined | Number, Math, Date, String, RegExp */
