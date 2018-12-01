@@ -1,3 +1,8 @@
+## 0.2.10
+* Change color for delimiters, arrows, operator.... to navy color in JS
+* Correct few js colors since atom changed some markup
+* Revert bad selector added for type color in TS
+
 ## 0.2.9
 * Correct bracket color in JavaScript syntax
 
