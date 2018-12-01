@@ -1,3 +1,6 @@
+## 0.2.11
+* Correct some JS colors in Html script tag
+
 ## 0.2.10
 * Change color for delimiters, arrows, operator.... to navy color in JS
 * Correct few js colors since atom changed some markup
