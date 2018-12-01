@@ -1,11 +1,15 @@
 .syntax--source.syntax--js {
-
+  .syntax--meta.syntax--brace,
   .syntax--arrow,
   .syntax--operator,
   .syntax--meta.syntax--delimiter,
   .syntax--punctuation {
     color: @navy;
     font-weight: bold;
+  }
+
+  .syntax--punctuation.syntax--definition.syntax--string{
+    color: @string;
   }
 
   .syntax--variable.syntax--language.syntax--js,
@@ -59,7 +63,12 @@
     color:rgb(157, 87, 17);
     font-weight: bold;
   }
+  > .syntax--delimiter + .syntax--support.syntax--variable{
+    color:black;
+    font-weight: normal;
+  }
 
+  .syntax--comment.syntax--punctuation.syntax--js,
   .syntax--comment.syntax--documentation{
     .syntax--jsdoc.syntax--class {
       color: @comment;
@@ -87,4 +96,10 @@
 
   color: black;
 
+}
+.syntax--js {
+  > .syntax--punctuation.syntax--comment.syntax--js{
+    color:@comment;
+    font-weight: normal;
+  }
 }
