@@ -1,7 +1,7 @@
 # ![Notepad++ syntax](https://raw.githubusercontent.com/classikd/notepad-plus-plus-syntax/master/images/logo-notepad-syntax.png)
 
 [Notepad++](https://notepad-plus-plus.org/fr/)'s default theme ported to Atom.  
-Tested and optimized for __HTML__, __PHP__, __JS__, __TS__, __CSS__, __SCSS__, __LESS__, __JSON__, __XML__, __YML__.
+Tested and optimized for __HTML__, __PHP__, __JS__, __CSS__, __SCSS__, __LESS__, __JSON__, __XML__, __YML__.
 
 # Preview
 * HTML

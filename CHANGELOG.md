@@ -1,3 +1,6 @@
+## 0.2.12
+* Fix wrong color for many PHP functions
+
 ## 0.2.11
 * Correct some JS colors in Html script tag
 

@@ -1,7 +1,7 @@
 {
   "name": "notepad-plus-plus-syntax",
   "theme": "syntax",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "Notepad++'s default theme ported to Atom.",
   "repository": "https://github.com/classikd/notepad-plus-plus-syntax",
   "keywords": [
